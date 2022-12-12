@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Process Book</title>
+<link rel="icon" type="image/x-icon" href="Szlogo_pink.png">
+
+  <!--  Links to reset css files also should go before your page style-->
+  <link href="test_reset.css" rel="stylesheet">
+  <link href="proc_style.css" rel="stylesheet">
+
+  <style type="text/css">
+
+  </style>
+
+</head>
+    
+<body>
+    
+<div class="other">
+         <a href="index.html">
+         <div><img src="szlogoblush.png" class="logo"></div>
+        </a>
+     </div>
+    
+<div class="dropdown">
+    
+<button id="btn">Menu</button>
+    
+    
+<ul id="list">
+    <li><a href="about.html" >About</a></li>
+    <li><a href="">Analog Work</a></li>
+    <li><a href="">Illustration</a></li>
+    <li><a href="proc.html">Process Book</a></li>
+</ul>
+    
+</div>
+    
+ <ul>
+        <li class="butt over">
+            <a href="about.html" >About</a> </li>
+     
+        <li class="butt over">
+          <a href="">Analog Work</a>
+        </li>
+     
+        <li class="butt over">
+          <a href="">Illustration</a>
+        </li>
+     
+        <li class="butt over">
+          <a href="proc.html">Process Book</a>
+        </li>
+     
+</ul>
+    
+<div class="topbox"></div>
+
+<div class="topbox"></div>
+
+<div id="newgrid">
+    
+<div class="1a">
+<img src="process/sketch.png" class="image">
+    </div>
+
+<div class="1b pbox">
+    <br>
+<h1>Step 1:</h1>
+    <p>Sketching and transforming my initial brainstorms into storyboards.</p>
+</div>
+    
+<div class="1c textleft pbox">
+    <br>
+<h1>Step 2:</h1>
+    <p>Collecting assets such as videos, songs, and other stock images.</p>
+</div>
+
+<div class="1d">
+<img src="process/vid.gif" class="image">
+    </div>
+    
+<div class="1e">
+<img src="process/edit.gif" class="image">
+    </div>
+
+<div class="1f pbox">
+    <br>
+<h1>Step 3:</h1>
+    <p>Testing out different filters and color settings.</p>
+</div>
+    
+<div class="1g textleft pbox">
+    <br>
+<h1>Step 4:</h1>
+    <p>Creating 2D animations to add to the live video.</p>
+</div>
+
+<div class="1h">
+<img src="process/julessnew.gif" class="image">
+    </div>
+    
+</div>
+    
+<div class="footerbox">
+</div>
+    
+<footer class="footer">
+    <p><span>&copy;</span> Sylvia Zierz</p>
+</footer> 
+
+    
+<script>
+    
+const button = document.getElementById("btn");
+
+const list = document.getElementById("list");
+    
+list.style.display = "none";
+    
+button.addEventListener("click", (event) => {
+    if (list.style.display == "none") {
+    list.style.display = "block";
+    } else {
+    list.style.display = "none";
+    }
+})
+    
+</script>
+    
+</body>
